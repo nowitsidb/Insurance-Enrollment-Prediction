@@ -10,7 +10,6 @@
 7. [FastAPI Implementation](#fastapi-implementation)
 8. [Deployment Instructions](#deployment-instructions)
 9. [API Testing](#api-testing)
-10. [Future Enhancements](#future-enhancements)
 
 ## Project Overview
 
