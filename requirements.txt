@@ -12,7 +12,6 @@ uvicorn
 python-multipart
 pydantic
 joblib
-pickle5
 mlflow
 mlflow-skinny
 pytest
