@@ -1,0 +1,18 @@
+Dataset Shape: 10000 rows, 10 columns
+
+Data Types:
+employee_id: int64
+age: int64
+gender: object
+marital_status: object
+salary: float64
+employment_type: object
+region: object
+has_dependents: object
+tenure_years: float64
+enrolled: int64
+
+Missing Values:
+No missing values found
+
+Duplicate Rows: 0

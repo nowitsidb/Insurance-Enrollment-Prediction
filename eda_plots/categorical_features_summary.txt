@@ -1,0 +1,97 @@
+CATEGORICAL FEATURES SUMMARY
+===========================
+
+GENDER
+------
+Unique values: 3
+
+Value counts:
+Male: 4815 (48.15%)
+Female: 4810 (48.10%)
+Other: 375 (3.75%)
+
+Enrollment rate by category:
+Male: 61.68%
+Female: 61.60%
+Other: 64.27%
+
+Chi-square test p-value: 0.58869
+Statistical significance: No
+
+
+MARITAL_STATUS
+--------------
+Unique values: 4
+
+Value counts:
+Married: 4589 (45.89%)
+Single: 3877 (38.77%)
+Divorced: 1001 (10.01%)
+Widowed: 533 (5.33%)
+
+Enrollment rate by category:
+Married: 61.02%
+Single: 62.94%
+Divorced: 60.04%
+Widowed: 62.48%
+
+Chi-square test p-value: 0.19416
+Statistical significance: No
+
+
+EMPLOYMENT_TYPE
+---------------
+Unique values: 3
+
+Value counts:
+Full-time: 7041 (70.41%)
+Part-time: 1973 (19.73%)
+Contract: 986 (9.86%)
+
+Enrollment rate by category:
+Full-time: 75.33%
+Part-time: 28.48%
+Contract: 31.24%
+
+Chi-square test p-value: 0.00000
+Statistical significance: Yes
+Effect size (Cramer's V): 0.305
+
+
+REGION
+------
+Unique values: 4
+
+Value counts:
+West: 2582 (25.82%)
+Northeast: 2506 (25.06%)
+Midwest: 2488 (24.88%)
+South: 2424 (24.24%)
+
+Enrollment rate by category:
+West: 61.27%
+Northeast: 61.17%
+Midwest: 61.74%
+South: 62.83%
+
+Chi-square test p-value: 0.61466
+Statistical significance: No
+
+
+HAS_DEPENDENTS
+--------------
+Unique values: 2
+
+Value counts:
+Yes: 5993 (59.93%)
+No: 4007 (40.07%)
+
+Enrollment rate by category:
+Yes: 79.74%
+No: 34.81%
+
+Chi-square test p-value: 0.00000
+Statistical significance: Yes
+Effect size (Cramer's V): 0.320
+
+

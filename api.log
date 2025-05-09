@@ -1,0 +1,19 @@
+2025-05-09 21:17:01,616 - insurance-api - INFO - Loading model from models/xgb_model.pkl
+2025-05-09 21:17:02,091 - insurance-api - INFO - Model loaded successfully
+2025-05-09 21:17:02,091 - insurance-api - INFO - Model type: XGBClassifier
+2025-05-09 21:17:02,476 - insurance-api - INFO - Loading model from models/xgb_model.pkl
+2025-05-09 21:17:02,950 - insurance-api - INFO - Model loaded successfully
+2025-05-09 21:17:02,950 - insurance-api - INFO - Model type: XGBClassifier
+2025-05-09 21:17:02,965 - insurance-api - INFO - Loading model from models/xgb_model.pkl
+2025-05-09 21:17:02,967 - insurance-api - INFO - Model loaded successfully
+2025-05-09 21:17:02,967 - insurance-api - INFO - Model type: XGBClassifier
+2025-05-09 21:18:29,499 - insurance-api - INFO - Prediction request received: 045f1eaa-6e2a-498c-bd79-4af2260a4d36 with 3 employees
+2025-05-09 21:18:29,520 - insurance-api - INFO - Prediction completed: 045f1eaa-6e2a-498c-bd79-4af2260a4d36, predicting 2/3 as enrolled
+2025-05-09 21:18:35,573 - insurance-api - INFO - Prediction request received: 79526f6c-1f62-4dc6-9a59-ff2316fde4c3 with 3 employees
+2025-05-09 21:18:35,581 - insurance-api - INFO - Prediction completed: 79526f6c-1f62-4dc6-9a59-ff2316fde4c3, predicting 2/3 as enrolled
+2025-05-09 21:19:06,316 - insurance-api - INFO - Loading model from models/xgb_model.pkl
+2025-05-09 21:19:07,000 - insurance-api - INFO - Model loaded successfully
+2025-05-09 21:19:07,001 - insurance-api - INFO - Model type: XGBClassifier
+2025-05-09 21:19:07,019 - insurance-api - INFO - Loading model from models/xgb_model.pkl
+2025-05-09 21:19:07,021 - insurance-api - INFO - Model loaded successfully
+2025-05-09 21:19:07,021 - insurance-api - INFO - Model type: XGBClassifier

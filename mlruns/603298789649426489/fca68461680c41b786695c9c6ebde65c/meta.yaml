@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/siddharthbajpai/Desktop/Uniblox/mlruns/603298789649426489/fca68461680c41b786695c9c6ebde65c/artifacts
+end_time: 1746805583488
+entry_point_name: ''
+experiment_id: '603298789649426489'
+lifecycle_stage: active
+run_id: fca68461680c41b786695c9c6ebde65c
+run_name: languid-shrimp-525
+run_uuid: fca68461680c41b786695c9c6ebde65c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746805548974
+status: 3
+tags: []
+user_id: siddharthbajpai

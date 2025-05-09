@@ -1,0 +1,54 @@
+NUMERICAL FEATURES SUMMARY
+=========================
+
+AGE
+---
+Min: 22.00
+Max: 64.00
+Mean: 43.00
+Median: 43.00
+Std Dev: 12.29
+Skewness: -0.00
+Kurtosis: -1.17
+
+By Enrollment Status:
+Mean for enrolled: 45.60
+Mean for not enrolled: 38.81
+Difference: 6.79
+T-test p-value: 0.00000
+Statistical significance: Yes
+
+SALARY
+------
+Min: 2207.79
+Max: 120312.00
+Mean: 65032.97
+Median: 65056.05
+Std Dev: 14923.96
+Skewness: 0.00
+Kurtosis: -0.06
+
+By Enrollment Status:
+Mean for enrolled: 69337.34
+Mean for not enrolled: 58087.02
+Difference: 11250.33
+T-test p-value: 0.00000
+Statistical significance: Yes
+
+TENURE_YEARS
+------------
+Min: 0.00
+Max: 36.00
+Mean: 3.97
+Median: 2.80
+Std Dev: 3.90
+Skewness: 1.97
+Kurtosis: 5.92
+
+By Enrollment Status:
+Mean for enrolled: 3.94
+Mean for not enrolled: 4.00
+Difference: -0.06
+T-test p-value: 0.45460
+Statistical significance: No
+

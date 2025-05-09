@@ -1,0 +1,64 @@
+{
+    "model_type": "xgb",
+    "best_params": {
+        "model__colsample_bytree": 0.9,
+        "model__learning_rate": 0.01,
+        "model__max_depth": 5,
+        "model__n_estimators": 200,
+        "model__subsample": 0.9
+    },
+    "cv_results": {
+        "accuracy": {
+            "mean": 0.9995,
+            "std": 0.0004677071733467327
+        },
+        "precision": {
+            "mean": 0.9995953463810416,
+            "std": 0.0004955975501750681
+        },
+        "recall": {
+            "mean": 0.9995951417004049,
+            "std": 0.0004958481260694875
+        },
+        "f1_score": {
+            "mean": 0.9995951416485607,
+            "std": 0.00037871031031495606
+        },
+        "auc_roc": {
+            "mean": 0.9999942115847688,
+            "std": 9.17840023123023e-06
+        }
+    },
+    "test_results": {
+        "accuracy": 0.9995,
+        "precision": 0.9991909385113269,
+        "recall": 1.0,
+        "f1_score": 0.9995953055443141,
+        "auc_roc": 0.999993649281575
+    },
+    "data_info": {
+        "total_samples": 10000,
+        "train_samples": 8000,
+        "test_samples": 2000,
+        "feature_count": 12,
+        "numerical_features": [
+            "age",
+            "salary",
+            "tenure_years"
+        ],
+        "categorical_features": [
+            "gender",
+            "marital_status",
+            "employment_type",
+            "region",
+            "has_dependents"
+        ],
+        "engineered_features": [
+            "age_group",
+            "salary_range",
+            "tenure_group",
+            "family_status"
+        ]
+    },
+    "timestamp": "2025-05-09 21:16:20"
+}
