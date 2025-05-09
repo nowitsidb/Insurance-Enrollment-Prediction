@@ -36,7 +36,7 @@ The dataset contains census-style employee data with demographic and employment 
 | `age` | Integer | Employee age in years | 22-64 |
 | `gender` | Categorical | Employee gender | Male, Female, Other |
 | `marital_status` | Categorical | Marital status | Married, Single, Divorced, Widowed |
-| `salary` | Float | Annual salary in USD | $2,208 - $120,312 |
+| `salary` | Float | Annual salary | 2,208 - 120,312 |
 | `employment_type` | Categorical | Type of employment | Full-time, Part-time, Contract |
 | `region` | Categorical | Geographic region | West, Northeast, Midwest, South |
 | `has_dependents` | Categorical | Whether employee has dependents | Yes, No |
@@ -67,10 +67,10 @@ Our comprehensive EDA revealed several critical insights about enrollment patter
 ![Salary Distribution by Enrollment Status](eda_plots/salary_analysis.png)
 
 **Salary Analysis**:
-- Range: $2,208 - $120,312 (mean: $65,033)
+- Range: 2,208 - 120,312 (mean: 65,033)
 - Strong positive correlation with enrollment (r = 0.37)
-- Mean salary of enrolled employees: $69,337
-- Mean salary of non-enrolled employees: $58,087
+- Mean salary of enrolled employees: 69,337
+- Mean salary of non-enrolled employees: 58,087
 - Statistically significant difference (p < 0.00001)
 
 ![Tenure Distribution by Enrollment Status](eda_plots/tenure_years_analysis.png)
@@ -113,7 +113,7 @@ Our comprehensive EDA revealed several critical insights about enrollment patter
 ### Key EDA Findings
 
 1. **Age Threshold Effect**: Enrollment rate dramatically increases after age 30, from 26.4% to 65.3%
-2. **Salary Band Impact**: Employees with salaries above $65,000 have ~80% enrollment vs. ~35% for lower salaries
+2. **Salary Band Impact**: Employees with salaries above 65,000 have ~80% enrollment vs. ~35% for lower salaries
 3. **Employment Type Criticality**: Full-time employees are 2.5x more likely to enroll than part-time/contract
 4. **Dependents as Primary Driver**: Having dependents is the strongest single predictor of enrollment
 5. **Regional Consistency**: Enrollment rates are consistent across regions (61-63%)
@@ -165,7 +165,7 @@ Based on our EDA insights, we engineered several new features to enhance the mod
   - Medium: 77.1% enrollment
   - High: 79.8% enrollment
   - Very High: 79.8% enrollment
-- **Business Insight**: Critical threshold at $65,000 with dramatic enrollment increase
+- **Business Insight**: Critical threshold at 65,000 with dramatic enrollment increase
 
 ### 3. Tenure Group (`tenure_group`)
 
